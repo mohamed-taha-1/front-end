@@ -1,0 +1,18 @@
+<div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Price</th>
+          <th>Quantity</th>
+          <!-- Add more table headers for other order properties if needed -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let order of orders">
+          <td>{{ order.price }}</td>
+          <td>{{ order.quantity }}</td>
+          <!-- Add more table cells for other order properties if needed -->
+        </tr>
+      </tbody>
+    </table>
+  </div>
